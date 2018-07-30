@@ -3,7 +3,8 @@
 The scripts below were all developed using Jupyter Notebook. Market data is all fetched from Quandl.
 
 ### trading_finder
-Historical market data from companies currently in the S&P 500 is analyzed and used to test a trading strategy
+Historical market data from companies currently in the S&P 500 is analyzed and used to test a trading strategy. If market data can't be fetched from Quandl or not enough exists to create the rolling mean or rolling std, those stocks are dropped from the analysis
+
 * Strategy consists of buying long or short selling up to 50 stocks a day based on if they are outside the Bollinger Bands
   * For more info on check the __trading_1__ section
 *	S&P 500 companies scraped from Wikipedia
