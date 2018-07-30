@@ -4,7 +4,7 @@ The scripts below were all developed using Jupyter Notebook. Market data is all 
 
 ### trading_finder
 Historical market data from companies currently in the S&P 500 is analyzed and used to test a trading strategy
-* Strategy consists of buying or short selling up to 50 stocks a day based on if they are outside the Bollinger Bands
+* Strategy consists of buying long or short selling up to 50 stocks a day based on if they are outside the Bollinger Bands
   * For more info on check the __trading_1__ section
 *	S&P 500 companies scraped from Wikipedia
 *	Dictionaries and Pandas DataFrames are used to hold market data and calculated data 
