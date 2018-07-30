@@ -1,6 +1,14 @@
 # Market Analysis
 
-The scripts below were all developed using Jupyter Notebook
+The scripts below were all developed using Jupyter Notebook. Market data is all fetched from Quandl.
+
+### trading_finder
+Historical market data from companies currently in the S&P 500 is analyzed and used to test a trading strategy
+* Strategy consists of buying or short selling up to 50 stocks a day based on if they are outside the Bollinger Bands
+  * For more info on check the __trading_1__ section
+*	S&P 500 companies scraped from Wikipedia
+*	Dictionaries and Pandas DataFrames are used to hold market data and calculated data 
+
 
 ### trading_1
 This script is used to test stock trading strategies involving Bollinger Bands. The rolling mean and std used to form the bands have a 30 day window. The results are plotted using matplotlib and the sharpe ration is computed to evaluate the strategies.
